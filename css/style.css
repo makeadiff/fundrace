@@ -1,0 +1,123 @@
+body {
+	margin:0px;
+	background:#eee;
+	color:#000;
+	font:76%/140% Verdana,Geneva,Arial,Helvetica,sans-serif;
+}
+a {
+	text-decoration:none;
+	color:blue;
+}
+.form-area label {
+	width:100px;
+	display:block;
+	float:left;
+	text-align:right;
+	padding-right:5px;
+}
+.form-area input, .form-area select, .form-area textarea {
+	float:left;
+}
+.form-area p.info {
+	float:left;
+}
+br {
+	clear:both;
+}
+img {
+	border:0;
+}
+
+#loading {
+	position:fixed;
+	background-color:#f00;
+	top:0;
+	left:0;
+	color:#fff;
+	padding:2px 2px 2px 2px;
+	display:none;
+	z-index:9;
+	opacity:.6;
+	filter: alpha(opacity=60);
+}
+
+/* Table */
+table {
+	width:100%;
+	border-collapse:collapse;
+}
+th {
+	text-align:left;
+}
+table .odd {
+	background-color:#eee;
+}
+
+/*Lists*/
+ul.horizontal, ul.vertical {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ul.horizontal li {
+	float:left;
+	padding:0;
+}
+
+table#layout {
+	width:100%;
+	height:800px;
+}
+td#content-area {
+	background-color:#ddd;
+	width:1000px;
+	vertical-align:top;
+}
+
+.box {
+	background-color:#fff;
+	margin:10px;
+	padding:5px;
+}
+
+/*Messages*/
+#warning-message,.warning {
+	color:orange;
+	font-weight:bold;
+}
+#error-message,.error, .error-message {
+	color:red;
+	font-weight:bold;
+}
+#success-message,.success, .success-message {
+	color:darkgreen;
+	font-weight:bold;
+}
+	
+#warning-message,.warning, #success-message,.success,#error-message,.error {
+	padding-left:18px;
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+
+/*Icons*/
+.icon,.page-next,.page-back,.page-first,.page-last,.page-previous {
+	font-size:0px;
+	padding:10px 8px;
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+.list-with-icon li,.list-with-icon dt, .with-icon {
+	padding:2px 0 2px 18px;
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+.menu-with-icon li a {
+	padding-left:12px;
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+.no-icon {
+	background-image:none !important;
+}

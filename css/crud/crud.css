@@ -1,0 +1,150 @@
+
+#display-area {
+	width:80%;
+}
+/*Table Display*/
+.data-table {
+	width:100%;
+	border-collapse:collapse;
+}
+.data-table th {
+	background-color:#9e0808;
+	color:#fff;
+	font-weight:bold;
+	font-size:9pt;
+	border:1px solid #666;
+}
+.data-table td {
+	border:1px solid #666;
+}
+.data-table tr:hover {
+	background-color:#FFA9A9;
+}
+.item-row-even {
+	background-color:#fee;
+}
+.data-table tr.item-row-odd {
+	background-color:#fff;
+}
+.data-table .final-row td {
+	border:0px solid #fff;
+}
+.data-table .final-row:hover {
+	background:#fff;
+}
+
+/*Forms*/
+.form-label {
+	text-align:right;
+}
+.field-area select,
+.field-area label,
+.field-area input {
+	float:left;
+	width:200px;
+}
+.field-area label {
+	text-align:right;
+	font-weight:bold;
+	padding-right:10px;
+}
+.field-area .button {
+	width:75px;
+}
+
+.field-area {
+	border-bottom:1px solid #aaa;
+	padding:10px 0;
+}
+.form-area fieldset {
+	border:0;
+	margin:0;
+	padding:0;
+}
+.action-area {
+	padding:15px 5px;
+}
+form input.action-submit {
+	float:right;
+	padding:0px 10px;
+	margin:0 10px;
+}
+#action-save-edit {
+	border:1px solid #aaa;
+	padding:2px 10px;
+}
+#action-save {
+	font-weight:bold;
+}
+
+br {
+	clear:both;
+}
+#admin-form {
+	border:1px solid #999;
+}
+
+
+/*Global Formating*/
+#content {
+}
+
+ul.menu li a {
+	color:#00f;
+}
+
+/*Formating*/
+h1 {
+	font-size:16pt;
+	font-weight:bold;
+	color:#5b8cd2;
+	display:inline;
+}
+.heading {
+	font-size:16pt;
+	font-weight:bold;
+	color:#5b8cd2;
+	text-align:center;
+}
+.sortby {
+	color:#fff;
+	font-weight:bold;
+}
+/*Misc*/
+.info-bar {
+	width:100%;
+	background-color:#ffe;
+	font-size: 11px;
+	color: black;
+}
+.info-bar form {
+	display:inline;
+}
+#page-actions {
+	float:right;
+	width:79%;
+	text-align:right;
+}
+#add-new {
+	font-weight:bold;
+}
+
+.readonly-field {
+	border:1px solid black;
+	padding-right:5px;
+}
+#content-cell {
+	width:100%;
+	vertical-align:middle;
+}
+}
+.preview-image {
+	max-width:200px;
+	max-height:200px;
+}
+.calendar {
+	background:none !important;
+}
+.calendar table {
+	border-collapse:separate !important;
+}

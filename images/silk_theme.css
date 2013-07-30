@@ -1,0 +1,48 @@
+/*Actions*/
+.add {background-image:url(silk_icons/add.png);}
+.done,.accept {background-image:url(silk_icons/accept.png);}
+.edit {background-image:url(silk_icons/pencil.png);}
+.delete {background-image:url(silk_icons/bin_empty.png);}
+
+/* Active/Deactive */
+.deactivate {background-image:url(silk_icons/cross.png);}
+.activate {background-image:url(silk_icons/tick.png);}
+/* Activate/Deactivate - oppostite of active/deactive */
+.active {background-image:url(silk_icons/tick.png);}
+.deactive {background-image:url(silk_icons/cross.png);}
+
+/*Paging*/
+.page-next,.next {background-image:url(silk_icons/resultset_next.png);}
+.page-back,.previous,.page-previous {background-image:url(silk_icons/resultset_previous.png);}
+.page-first,.first {background-image:url(silk_icons/resultset_first.png);}
+.page-last,.last {background-image:url(silk_icons/resultset_last.png);}
+.home {background-image:url(silk_icons/house.png);}
+
+/*Common Stuff*/
+.settings {background-image:url(silk_icons/wrench.png);}
+.logout {background-image:url(silk_icons/door_out.png);}
+.calendar,.date {background-image:url(silk_icons/calendar.png);}
+.info {background-image:url(silk_icons/information.png);}
+.plugin {background-image:url(silk_icons/plugin.png);}
+.search {background-image:url(silk_icons/find.png);}
+.site,.link {background-image:url(silk_icons/world.png);}
+.rss,.feed {background-image:url(silk_icons/feed.png);}
+.save {background-image:url(silk_icons/disk.png);}
+.comment {background-image:url(silk_icons/comment.png);}
+.wait {background-image:url(silk_icons/hourglass.png);}
+.favorite {background-image:url(silk_icons/heart.png);}
+.password,.key {background-image:url(silk_icons/key.png);}
+.idea {background-image:url(silk_icons/lightbulb.png);}
+.print {background-image:url(silk_icons/printer.png);}
+.folder {background-image:url(silk_icons/folder.png);}
+.email,.mail,.write {background-image:url(silk_icons/email.png);}
+.phone,.sms {background-image:url(silk_icons/phone.png);}
+
+
+#warning-message,.warning {background-image:url(silk_icons/error.png);}
+#error-message,.error {background-image:url(silk_icons/exclamation.png);}
+#success-message,.success,.ok {background-image:url(silk_icons/tick.png);}
+
+/*Project Specific Stuff*/
+
+.menu-with-icon li {background-position:4px 5px;}

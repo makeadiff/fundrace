@@ -1,0 +1,40 @@
+
+#progress-bar{
+	width:500px;
+	border:1px solid #000;
+	padding:2px;
+}
+
+#progress {
+	color:#fff;
+	font-weight:bold;
+	background-color:red;
+	vertical-align: middle;
+	text-align:center;
+}
+
+#tasks ul {
+	list-style:none;
+	padding-left:0px;
+}
+
+#task-progress-bar{
+	width:300px;
+	border:1px solid #000;
+	padding:2px;
+}
+
+#task-progress {
+	color:#fff;
+	font-weight:bold;
+	background-color:blue;
+	vertical-align: middle;
+	text-align:center;
+}
+
+#leaderboard-box {
+	height:300px;
+}
+.leaderboard-raised {
+	text-align:right;
+}
